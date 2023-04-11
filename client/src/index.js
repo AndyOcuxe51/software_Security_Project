@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+export { default as ChannelContainer } from './ChannelContainer';
+export { default as ChannelListContainer } from './ChannelListContainer';
+
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
